@@ -70,14 +70,21 @@ The client is required to find a nonce that, when concatenated with the server-p
     ```bash
     docker-compose up --build
     ```
+    
 This command will build the Docker images for both the server and client, and then start the containers.
 
 
-### Customization**
+### Customization
 You can customize various aspects of the server:
 
-Difficulty Level: Adjust the difficulty level of the PoW challenge by changing the difficulty variable in server/main.go.
+**Difficulty Level:**
 
-Quotes Collection: Add or modify quotes in the quotes array in server/main.go.
+Adjust the difficulty level of the PoW challenge by changing the difficulty variable in  **`server/main.go`**
 
-Client Connection: Adjust the client’s connection parameters by modifying the environment variables used in client/main.go.
+**Quotes Collection:**
+
+Add or modify quotes in the quotes array in **`server/main.go`**
+
+**Client Connection:**
+
+Adjust the client’s connection parameters by modifying the environment variables used in **`client/main.go`**
