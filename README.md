@@ -61,7 +61,7 @@ The client is required to find a nonce that, when concatenated with the server-p
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/danilsolovey/word-of-wisdom-tcp-server.git
+   git clone https://github.com/daniilsolovey/word-of-wisdom-tcp-server.git
    cd word-of-wisdom-tcp-server
    ```
 
